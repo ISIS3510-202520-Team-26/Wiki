@@ -13,10 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tech Market',
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: const HomeScreen(),
+      theme: ThemeData(useMaterial3: true),
+      home: const HomeScreen(), // Pantalla inicial
     );
   }
 }
